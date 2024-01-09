@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-button {
+button .normal {
   background-color: #e7e7e7;
   color: #23272a;
   border: 3px solid #99aab5;
@@ -30,6 +30,27 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
+
+  transition-duration: 0.4s;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+button .round {
+  background-color: #e7e7e7;
+  color: #23272a;
+  border: 3px solid #99aab5;
+
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
 
   transition-duration: 0.4s;
 
