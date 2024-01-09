@@ -13,12 +13,8 @@ p {
   text-align: left;
 }
 
-.a1 {
-  color: #e7e7e7;
-}
-
-.a2 {
-  color: #2c2f33;
+a {
+  color: inherit;
 }
 
 button {
