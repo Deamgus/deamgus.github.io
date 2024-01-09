@@ -42,7 +42,9 @@ button {
 button:hover {
   background-color: #23272a;
   color: #e7e7e7;
+}
 
+button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
