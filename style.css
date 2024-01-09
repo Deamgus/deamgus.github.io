@@ -18,13 +18,27 @@ button {
   background-color: #e7e7e7;
   color: #23272a;
   border: 3px solid #99aab5;
+
   padding: 8px 24px;
   text-align: center;
   text-decoration: none;
+
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
+  
   transition-duration: 0.4s;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.container {
+  border: 1px solid black;
+  height: 200px;
+  position: relative;
 }
 
 button:hover {
