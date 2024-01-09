@@ -1,7 +1,7 @@
 body {
   margin: 10px;
   background-color: #2c2f33;
-  color: #fff;
+  color: #e7e7e7;
 }
 
 h1, h2 {
@@ -13,8 +13,12 @@ p {
   text-align: left;
 }
 
-a {
-  color: #fff;
+.a1 {
+  color: #e7e7e7;
+}
+
+.a2 {
+  color: #2c2f33;
 }
 
 button {
