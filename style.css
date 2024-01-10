@@ -50,15 +50,15 @@ button:hover {
   position: relative;
 }
 
-.footer {  
-  position: fixed;  
-  left: 10px;  
-  bottom: 5px;  
-  right: 10px;   
-  width: 95%;  
-  background-color: #23272a;  
-  color: #e7e7e7;  
-  text-align: right;  
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  right: 10px;
+  width: 95%;
+  background-color: #23272a;
+  color: #e7e7e7;
+  text-align: right;
 }
 
 input[type=text] {
