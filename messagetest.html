@@ -9,11 +9,11 @@
 
 <body>
   <h1>Messaging Test</h1>
-  <form id="sendmsg">
+  <form id="sendmsg" oninput="pastmsg=message">
     <input id="message" type=text placeholder="Input a message..."><br>
     <button type=submit>Send</button>
     <br>
-    <output form="sendmsg" id="pastmsg" for="message"></output>
+    <output id="pastmsg" for="message"></output>
   </form>
   <br><br><br>
 </body>
