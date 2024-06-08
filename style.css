@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-button {
+button, input[type=submit] {
   background-color: #e7e7e7;
   color: #23272a;
   border: 3px solid #99aab5;
@@ -39,7 +39,7 @@ button {
   
 }
 
-button:hover {
+button:hover, input[type=submit]:hover {
   background-color: #23272a;
   color: #e7e7e7;
 }
