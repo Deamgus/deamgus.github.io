@@ -9,14 +9,14 @@
 
 <body>
   <h1>Messaging Test</h1>
-  <form id="sendmsg" oninput="pastmsg=message">
-    <input id="message" type=text placeholder="Input a message..."><br>
-    <button type=submit>Send</button>
-    <br>
-    <output id="pastmsg" for="message"></output>
+  <form action="/delivermsg.php" method="get" target="_blank">
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" placeholder="Input a message..."><br><br>
+    <input type="submit" value="Send Message">
   </form>
   <br><br><br>
 </body>
 
 <button><a href="index.html">Return to Home</a></button>
 </html>
+
