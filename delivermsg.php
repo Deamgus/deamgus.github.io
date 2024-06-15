@@ -3,5 +3,5 @@ function sendmsg(&$msg) {
   echo $msg;
 };
 
-sendmsg($_POST['message']);
+sendmsg($_GET['message']);
 ?>
