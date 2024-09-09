@@ -1,1 +1,2 @@
-# The official website of Deamgus
+# A place for testing for the Deamgus site
+Note: This repository has been archived.
